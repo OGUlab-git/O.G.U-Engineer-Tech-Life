@@ -41,7 +41,6 @@ try:
 except socket.error as err:
     print(err)
 
-# コマンド付きで送る（例：TRUNコマンドを想定）
 s.sendall(payload)
 
 try:
